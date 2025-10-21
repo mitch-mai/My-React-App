@@ -1,19 +1,29 @@
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Button from './components/Button';
+import Button from './components/Buttons/Button';
+import CounterButton from './components/Buttons/CounterButton';
 
 export default function App() {
   const handleClick = () => {
-    alert('Button clicked!');
+    alert('Basic button clicked!');
   };
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col">
       <Navbar />
 
-      <main className="flex-1 flex flex-col items-center justify-center gap-4">
-        <h1 className="text-4xl font-bold">Welcome Homepage</h1>
-        <Button onClick={handleClick}>Click Me</Button>
+      {/* main content area */}
+      <main className="flex-1 flex flex-col items-center justify-center gap-8">
+        <h1 className="text-4xl font-bold">Welcome Page</h1>
+
+        {/* Button row */}
+        <div className="flex items-center justify-center gap-6">
+          {/* Basic button (center) */}
+          <Button onClick={handleClick}>Bonk</Button>
+
+          {/* Counter button (side) */}
+          <CounterButton />
+        </div>
       </main>
 
       <Footer />
