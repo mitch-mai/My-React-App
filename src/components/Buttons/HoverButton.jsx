@@ -1,3 +1,4 @@
+/*
 import { useState } from 'react';
 
 export default function HoverButton({ label = "Hover me" }) {
@@ -15,3 +16,4 @@ export default function HoverButton({ label = "Hover me" }) {
     </button>
   );
 }
+*/

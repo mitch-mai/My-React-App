@@ -1,5 +1,19 @@
-import { useState } from 'react';
+import React,{useState} from 'react';
+import ReuseableButton from './ReuseableButton';
 
+const CounterButton = ({ initial = 0 }) => {
+  const [count , setCount] = useState(initial);
+  return (
+    <ReuseableButton
+      onClick={() => setCount(count + 1)}
+      label={`Count: ${count}`}
+      styleType="secondary"
+    />
+  );
+}
+export default CounterButton;
+
+/*
 export default function CounterButton({ initial = 0 }) {
   const [count, setCount] = useState(initial);
 
@@ -12,3 +26,4 @@ export default function CounterButton({ initial = 0 }) {
     </button>
   );
 }
+*/

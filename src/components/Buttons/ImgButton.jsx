@@ -1,3 +1,4 @@
+/*
 import {useState} from 'react';
 
 export default function ImgButton({imgSrc, altText = "Button Image"}) {
@@ -13,3 +14,4 @@ export default function ImgButton({imgSrc, altText = "Button Image"}) {
         </button>
     );
 }
+*/

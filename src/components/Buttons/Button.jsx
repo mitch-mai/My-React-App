@@ -1,3 +1,4 @@
+/*
 export default function Button({ children, onClick }) {
   return (
     <button
@@ -8,3 +9,4 @@ export default function Button({ children, onClick }) {
     </button>
   );
 }
+*/
