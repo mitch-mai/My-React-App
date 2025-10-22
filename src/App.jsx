@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Button from './components/Buttons/Button';
 import CounterButton from './components/Buttons/CounterButton';
+import HoverButton from './components/Buttons/HoverButton';
 
 export default function App() {
   const handleClick = () => {
@@ -23,6 +24,9 @@ export default function App() {
 
           {/* Counter button (side) */}
           <CounterButton />
+
+          {/* Hover button (side) */}
+          <HoverButton label="Hover me" />
         </div>
       </main>
 
