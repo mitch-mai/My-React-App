@@ -1,8 +1,8 @@
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CounterButton from './components/Buttons/CounterButton';
-/*import Button from './components/Buttons/Button';
 import HoverButton from './components/Buttons/HoverButton';
+/*import Button from './components/Buttons/Button';
 import ImgButton from './components/Buttons/ImgButton'; */
 
 export default function App() {
@@ -17,6 +17,9 @@ export default function App() {
 
           {/* Counter button (side) */}
           <CounterButton />
+
+          {/* Hover button (side) */}
+          <HoverButton />
       </main>
 
       <Footer />

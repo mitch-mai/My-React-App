@@ -1,7 +1,20 @@
-/*
 import { useState } from 'react';
+import ReuseableButton from './ReuseableButton';
 
 export default function HoverButton({ label = "Hover me" }) {
+  const [isHovered, setIsHovered] = useState(false); 
+  return (
+    <ReuseableButton
+      onClick={() => {}}
+      label={label}
+      styleType={isHovered ? 'primary' : 'danger'}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    />
+  );
+}
+
+/*export default function HoverButton({ label = "Hover me" }) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
