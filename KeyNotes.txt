@@ -1,0 +1,15 @@
+This is a key text file with infomation on notes to remind me on what I did.
+
+#1: When using tailwind check the latest one because it changing on how to install tailwind into your code.
+    Terminal 1:
+    - when looking it up I got > - npm install -D tailwindcss @tailwindcss/cli postcss autoprefixer -
+    - use this to watch it create/go - npx @tailwindcss/cli -i ./src/index.css -o ./src/tailwind.css --watch - 
+
+#2: To run the code if local file.
+    Terminal 2:
+    - use npm run dev
+    - will make a localhost that will auto generate when working in it.
+
+#3: Each component or files getting called must be imported from the App.jsx
+    - goes by the name and then the location that the name is from.
+
