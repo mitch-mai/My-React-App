@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import Button from './components/Buttons/Button';
 import CounterButton from './components/Buttons/CounterButton';
 import HoverButton from './components/Buttons/HoverButton';
+import ImgButton from './components/Buttons/ImgButton';
 
 export default function App() {
   const handleClick = () => {
@@ -27,6 +28,11 @@ export default function App() {
 
           {/* Hover button (side) */}
           <HoverButton label="Hover me" />
+
+          {/* Image button (side) */
+          <ImgButton imgSrc="/path/to/image.png" altText="Example Image Button" />
+          }
+
         </div>
       </main>
 
